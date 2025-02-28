@@ -19,7 +19,7 @@ public class BaseTest {
     public void setupDriver() throws MalformedURLException, URISyntaxException {
         String browser = System.getProperty("browser", "chrome");
 
-        URI gridURL = new URI("http://192.168.125.183:4444/wd/hub");
+        URI gridURL = new URI("http://172.19.0.2:4444/wd/hub");
 
         switch (browser.toLowerCase()) {
         case "firefox":
