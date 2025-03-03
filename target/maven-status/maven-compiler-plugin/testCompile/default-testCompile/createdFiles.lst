@@ -1,0 +1,3 @@
+TestCase\BaseTest.class
+TestCase\GoogleHomePageTest.class
+TestCase\GoogleSearchResultTest.class
