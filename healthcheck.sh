@@ -15,4 +15,4 @@ done
 echo "Hub is ready!"
 
 # Start the java command
-java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DHUB_HOST=$HUB_HOST -Dbrowser=$browser org.tstng.TestNG testing.xml
+java -cp selenium-docker.jar:selenium-docker-tests.jar:libs/* -DHUB_HOST=$HUB_HOST -Dbrowser=$browser org.tstng.TestNG testng.xml
